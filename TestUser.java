@@ -25,7 +25,7 @@ public class TestUser extends TestCase {
 	
 	public void testPasswordLength(){
 		
-		String passwordtoSet="abd";
+		String passwordtoSet="123";
 		try {
 			UserClient userClient=new UserClient(1, "Angela", "username1", false, false, "abd", "angela@yahoo.com");
 			fail("Constructorul nu prevede cazul cand parola e mai mica de 6 caractere.");

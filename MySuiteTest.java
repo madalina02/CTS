@@ -15,6 +15,7 @@ public class MySuiteTest {
 		suite.addTestSuite(TestSetIngredients.class);
 		suite.addTestSuite(TestItem.class);
 		suite.addTestSuite(TestOrder.class);
+		suite.addTestSuite(TestOrderNrItems.class);
 		
 
 		return suite;

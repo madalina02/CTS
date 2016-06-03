@@ -54,23 +54,5 @@ public class TestOrder extends TestCase {
 
 	}
 	
-	public void testSetNrItemsOrdered(){
-		String ntItemsOrder="0";
-		try{
-		
-			Order order1=
-					new BuilderOrder(1, 1)
-					.setTable("Table 2")
-					.setItemsOrdered("1")
-					.setNrItemsOrdered(ntItemsOrder)
-					.setTotal(18)
-					.build();
-			fail("Builderul nu prevede situatia in care comanda contine 0 produse");
-		}
-		catch(Exception e){
-			
-		}
-
-	}
 
 }
